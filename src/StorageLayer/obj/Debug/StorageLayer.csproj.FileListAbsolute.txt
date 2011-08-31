@@ -1,0 +1,9 @@
+C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\bin\Debug\StorageLayer.dll
+C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\bin\Debug\StorageLayer.pdb
+C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\obj\Debug\StorageLayer.dll
+C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\obj\Debug\StorageLayer.pdb
+C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\bin\Debug\nunit.framework.dll
+C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\bin\Debug\nunit.mocks.dll
+C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\bin\Debug\pnunit.framework.dll
+C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\bin\Debug\nunit.framework.xml

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\bin\Debug\StorageLayer.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-08-31" time="13:46:29">
+  <environment nunit-version="2.5.2.9222" clr-version="2.0.50727.3623" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\bin\Debug" machine-name="ADMIN-PC" user="jonezy" user-domain="ADMIN-PC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\bin\Debug\StorageLayer.dll" executed="True" success="True" time="0.078" asserts="0">
+    <results>
+      <test-suite name="StorageLayer" executed="True" success="True" time="0.078" asserts="0">
+        <results>
+          <test-suite name="Core" executed="True" success="True" time="0.047" asserts="0">
+            <results>
+              <test-suite name="StorageLayerTest" executed="True" success="True" time="0.031" asserts="0">
+                <results>
+                  <test-case name="StorageLayer.Core.StorageLayerTest.add_endpoint_should_do_something" executed="True" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
