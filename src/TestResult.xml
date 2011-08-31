@@ -1,19 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer.nunit" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-08-31" time="13:19:42">
-  <environment nunit-version="2.5.2.9222" clr-version="2.0.50727.3623" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\bin\Debug" machine-name="ADMIN-PC" user="jonezy" user-domain="ADMIN-PC" />
+<test-results name="C:\Dev\Personal\StorageLayer\src\StorageLayer.nunit" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-08-31" time="16:07:27">
+  <environment nunit-version="2.5.2.9222" clr-version="2.0.50727.3623" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Dev\Personal\StorageLayer\src\StorageLayer\bin\Debug" machine-name="ADMIN-PC" user="jonezy" user-domain="ADMIN-PC" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite name="C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer.nunit" executed="True" success="True" time="0.109" asserts="0">
+  <test-suite name="C:\Dev\Personal\StorageLayer\src\StorageLayer.nunit" executed="True" success="False" time="0.078" asserts="0">
     <results>
-      <test-suite name="C:\Dev\Personal\StorageLayer\StorageLayer\StorageLayer\bin\Debug\StorageLayer.dll" executed="True" success="True" time="0.094" asserts="0">
+      <test-suite name="C:\Dev\Personal\StorageLayer\src\StorageLayer\bin\Debug\StorageLayer.dll" executed="True" success="False" time="0.078" asserts="0">
         <results>
-          <test-suite name="StorageLayer" executed="True" success="True" time="0.094" asserts="0">
+          <test-suite name="StorageLayer" executed="True" success="False" time="0.078" asserts="0">
             <results>
-              <test-suite name="Core" executed="True" success="True" time="0.094" asserts="0">
+              <test-suite name="Core" executed="True" success="False" time="0.063" asserts="0">
                 <results>
-                  <test-suite name="StorageLayerTest" executed="True" success="True" time="0.078" asserts="0">
+                  <test-suite name="StorageLayerTest" executed="True" success="False" time="0.047" asserts="0">
                     <results>
-                      <test-case name="StorageLayer.Core.StorageLayerTest.add_endpoint_should_do_something" executed="True" success="True" time="0.000" asserts="0" />
+                      <test-case name="StorageLayer.Core.StorageLayerTest.retreived_endpoint_should_match_added_endpoint" executed="True" success="False" time="0.016" asserts="0">
+                        <failure>
+                          <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                          <stack-trace><![CDATA[at StorageLayer.Core.StorageLayer.GetService[T]() in C:\Dev\Personal\StorageLayer\src\StorageLayer\StorageLayer.cs:line 46
+at StorageLayer.Core.StorageLayerTest.retreived_endpoint_should_match_added_endpoint() in C:\Dev\Personal\StorageLayer\src\StorageLayer\StorageLayer.cs:line 231
+]]></stack-trace>
+                        </failure>
+                      </test-case>
                     </results>
                   </test-suite>
                 </results>

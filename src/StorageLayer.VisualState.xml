@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Dev\Personal\StorageLayer\src\StorageLayer.nunit</TopNode>
+  <SelectedNode>[0-1003]StorageLayer.Core.StorageLayerTest.retreived_endpoint_should_match_added_endpoint</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Dev\Personal\StorageLayer\src\StorageLayer.nunit" Expanded="true" />
+    <Node UniqueName="[0-1004]C:\Dev\Personal\StorageLayer\src\StorageLayer\bin\Debug\StorageLayer.dll" Expanded="true" />
+    <Node UniqueName="[0-1005]StorageLayer" Expanded="true" />
+    <Node UniqueName="[0-1006]StorageLayer.Core" Expanded="true" />
+    <Node UniqueName="[0-1001]StorageLayer.Core.StorageLayerTest" Expanded="true" />
+  </Nodes>
+</VisualState>
