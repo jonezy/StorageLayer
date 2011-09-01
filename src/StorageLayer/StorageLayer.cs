@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
-using NUnit.Framework;
 
 namespace StorageLayer.Core {
     public interface IStorageLayer {
@@ -9,7 +8,7 @@ namespace StorageLayer.Core {
     }
 
     public class Storage {
-        static Dictionary<Type, Type> _endPoints = StorageEndPoints.EndPoints;
+        Dictionary<Type, Type> _endPoints = StorageEndPoints.EndPoints;
         private static readonly object l = new Object();
         private static Storage instance;
 
@@ -24,14 +23,13 @@ namespace StorageLayer.Core {
                 return instance;
             }
         }
-        internal Storage() { }
+
+        internal Storage() {    }
         
         public T GetEndPoint<T>() {
-
-            // LAZY INITIALIZATION
-            ConstructorInfo constructor = null;
             try {
-                 foreach (KeyValuePair<Type, Type> item in StorageEndPoints.EndPoints) {
+                ConstructorInfo constructor = null;
+                foreach (KeyValuePair<Type, Type> item in _endPoints) {
                     if(item.Key == typeof(T)) {
                         constructor = item.Value.GetConstructor(new Type[0]);
                     }

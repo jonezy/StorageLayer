@@ -30,16 +30,23 @@ namespace StorageLayer.Tests {
         }
 
         [Test]
-        public void add_single_endpoint_should_do_return_count_1() {
+        public void add_single_endpoints_should_do_return_count_1() {
             Assert.AreEqual(StorageEndPoints.EndPoints.Count, 1);
         }
         
         [Test]
-        public void add_2_endpoint_should_do_return_count_2() {
+        public void add_2_endpoints_should_do_return_count_2() {
             StorageEndPoints.EndPoints.Clear();
             RegisterMultipleEndpoints(StorageEndPoints.EndPoints,2);
             Assert.AreEqual(StorageEndPoints.EndPoints.Count, 2);
         }
+
+        [Test]
+        public void clearing_storageendpoints_should_return_count_0() {
+            StorageEndPoints.EndPoints.Clear();
+            Assert.AreEqual(0, StorageEndPoints.EndPoints.Count);
+        }
+
 
 
         [Test]
