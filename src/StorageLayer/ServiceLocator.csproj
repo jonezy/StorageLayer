@@ -8,8 +8,8 @@
     <ProjectGuid>{27E83145-EAA3-4979-8E8B-FECF74487CF2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StorageLayer</RootNamespace>
-    <AssemblyName>StorageLayer</AssemblyName>
+    <RootNamespace>ServiceLocator.Core</RootNamespace>
+    <AssemblyName>ServiceLocator</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -50,8 +50,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StorageLayer.cs" />
+    <Compile Include="ServiceCollection.cs" />
+    <Compile Include="ServiceLocator.cs" />
+    <Compile Include="ServiceTable.cs" />
     <Compile Include="Tests.cs" />
   </ItemGroup>
   <ItemGroup>

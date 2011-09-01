@@ -1,0 +1,9 @@
+C:\dev\Personal\StorageLayer\src\StorageLayer\obj\Debug\ResolveAssemblyReference.cache
+C:\dev\Personal\StorageLayer\src\StorageLayer\bin\Debug\nunit.framework.dll
+C:\dev\Personal\StorageLayer\src\StorageLayer\bin\Debug\nunit.mocks.dll
+C:\dev\Personal\StorageLayer\src\StorageLayer\bin\Debug\pnunit.framework.dll
+C:\dev\Personal\StorageLayer\src\StorageLayer\bin\Debug\nunit.framework.xml
+C:\dev\Personal\StorageLayer\src\StorageLayer\bin\Debug\ServiceLocator.dll
+C:\dev\Personal\StorageLayer\src\StorageLayer\bin\Debug\ServiceLocator.pdb
+C:\dev\Personal\StorageLayer\src\StorageLayer\obj\Debug\ServiceLocator.dll
+C:\dev\Personal\StorageLayer\src\StorageLayer\obj\Debug\ServiceLocator.pdb

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageLayer", "StorageLayer\StorageLayer.csproj", "{27E83145-EAA3-4979-8E8B-FECF74487CF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLocator", "StorageLayer\ServiceLocator.csproj", "{27E83145-EAA3-4979-8E8B-FECF74487CF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
