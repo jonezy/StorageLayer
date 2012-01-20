@@ -1,0 +1,10 @@
+Bin
+bin
+obj
+*.suo
+*.user
+*.*~
+*.s3db
+
+
+

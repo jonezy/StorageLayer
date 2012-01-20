@@ -1,7 +1,7 @@
 ﻿using System;
 
-namespace ServiceLocator.Core {
-    internal class ServiceTable {
+namespace ServiceLocator {
+    public class ServiceTable {
         private static readonly object l = new Object();
         private static ServiceCollection instance;
 

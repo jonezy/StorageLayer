@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace ServiceLocator.Core {
+namespace ServiceLocator {
     public class Locator {
         private Dictionary<Type, Type> _endPoints;
         private Dictionary<Type, object> _endPointsCache;

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ServiceLocator.Core {
+namespace ServiceLocator {
     public class ServiceCollection : Dictionary<Type, Type> {}
 }

@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-using ServiceLocator.Core;
+using ServiceLocator;
 
 namespace StorageLayer.Tests {
     #region example code
@@ -60,7 +60,7 @@ namespace StorageLayer.Tests {
         [Test]
         public void retreived_endpoint_should_match_added_endpoint() {
             IExampleImplementation example = Locator.Instance.GetEndPoint<IExampleImplementation>();
-
+            
             Assert.IsInstanceOf<IExampleImplementation>(example);
         }
 
